@@ -1,0 +1,58 @@
+.synved-option-type-addon .description {
+line-height:26px;
+}
+
+.synved-option-style-important,
+.synved-option-style-addon-important {
+background-color:#ffe4e0;
+}
+.synved-option-style-addon-important-installed {
+background-color:#e0ffe4;
+}
+.synved-option-style-group-active th,
+.synved-option-style-group-active td {
+padding-top:2em;
+}
+.synved-option-important th {
+}
+
+textarea.regular-text {
+width:25em;
+}
+.wide-text {
+width:40em;
+}
+
+#TB_ajaxContent {
+max-width:100%;
+}
+.synved-option-overlay-markup {
+width:100%;
+}
+.synved-option-overlay-markup .overlay-ui {
+margin-bottom:10px;
+}
+.synved-option-overlay-markup .overlay-container {
+height:10px;
+}
+.synved-option-overlay-markup .overlay-message {
+font-size:10pt;
+font-weight:bold;
+margin:8px 0;
+}
+.ui-widget-overlay {
+background-image:none;
+}
+.wp-dialog .ui-dialog-titlebar {
+background-image:none;
+}
+.wp-dialog .ui-dialog-titlebar-close {
+right: 0.3em;
+top: 50%;
+}
+.wp-dialog .ui-dialog-titlebar-close span {
+background-image:none;
+}
+.synved-option-creds-form .wrap {
+margin-left:15px;
+}
