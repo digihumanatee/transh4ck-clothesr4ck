@@ -1,3 +1,10 @@
+# Sensitive files
+wp-config.php
+*.sql
+
+# Old versions
+_old*
+
 # Compiled Object files
 *.slo
 *.lo
