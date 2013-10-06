@@ -22,7 +22,8 @@ class TC_gallery {
         self::$instance =& $this;
 
          //We check if jetpack plugin is enabled (avoid conflict) before filtering post_gallery hook
-        if(!in_array('jetpack/jetpack.php', get_option('active_plugins'))) {
+//        if(!in_array('jetpack/jetpack.php', get_option('active_plugins'))) {
+	if(false) {
           add_filter ( 'post_gallery'                   , array( $this , 'tc_fancybox_gallery_filter' ), 20, 2);
           //add a filter for link markup 
           add_filter ( 'wp_get_attachment_link'         , array($this, 'tc_modify_attachment_link') , 20, 6 );
