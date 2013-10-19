@@ -1,6 +1,7 @@
 # Sensitive files
 wp-config.php
 *.sql
+robots.txt
 
 # Old versions
 _old*
